@@ -1,0 +1,22 @@
+[core]
+	editor = vim
+[user]
+	name = Tim Court
+	email = tctimmeh@gmail.com
+[alias]
+	st = status
+	br = branch
+  clr = clone --recursive
+	ci = commit -v
+	cia = commit -av
+	co = checkout
+	lt = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph
+	lta = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph --all
+[color]
+	ui = true
+[color "decorate"]
+  HEAD = green
+  branch = cyan
+  remoteBranch = red
+  tag = magenta
+  stash = cyan
