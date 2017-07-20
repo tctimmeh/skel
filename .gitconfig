@@ -6,7 +6,7 @@
 [alias]
 	st = status
 	br = branch
-  clr = clone --recursive
+        clr = clone --recursive
 	ci = commit -v
 	cia = commit -av
 	co = checkout
