@@ -10,6 +10,10 @@
 	ci = commit -v
 	cia = commit -av
 	co = checkout
+	clr = clone --recursive
+	poh = push origin HEAD
+	pom = push origin master
+	prum = pull -r upstream master
 	lt = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph
 	lta = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph --all
 [color]
