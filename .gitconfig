@@ -12,8 +12,8 @@
 	co = checkout
 	clr = clone --recursive
 	poh = push origin HEAD
-	pom = push origin master
-	prum = pull -r upstream master
+	pom = push origin main
+	prum = pull -r upstream main
 	lt = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph
 	lta = log --format=\"format:%C(yellow)%h%Creset %Cred%ai%Creset %Cgreen%an%Creset - %s%C(auto)%d\" --graph --all
 [color]
