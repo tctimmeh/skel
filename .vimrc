@@ -5,6 +5,9 @@ set shm=aToO		" (shortmess) show short messages
 set sm			" (showmatch) show matching bracket when typing
 set so=3		" (scrolloff) keep this many lines visible around cursor
 
+" Clipboard
+set cb=unnamedplus  " (clipboard) yank and paste from the real system clipboard
+
 " Formatting
 set nojs		" (joinspaces) join lines with only one space
 set fo+=r		" (formatoptions) add comment leader when hitting enter
